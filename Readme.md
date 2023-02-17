@@ -57,8 +57,7 @@ def home(request):
     posts = post.all() #récupère tous les posts
     one  = post.get(1) #recupere le post dont l'id vaut 1
 
-    #art.create({'title': 'article num1', 'auteur':'micheal amador', 'content':'contenu deux'})
-    #art.delete(1)
+    
     return render(request, 'index.html', {'posts': posts})
 
 
