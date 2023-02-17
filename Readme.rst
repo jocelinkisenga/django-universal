@@ -1,11 +1,10 @@
-=====
+======================
 universal-model-django
-=====
+======================
 
-universal-model-django is a Django app to conduct web-based polls. For each question,
-visitors can choose between a fixed number of answers.
+universal-model-django is a Django app to build an universal model that,
+you can use to your app to make model without migrations.
 
-Detailed documentation is in the "docs" directory.
 
 Quick start
 -----------
@@ -17,13 +16,11 @@ Quick start
         'universaldjango',
     ]
 
-2. Include the polls URLconf in your project urls.py like this::
+2. dont Include the universaldjango URLconf in your project urls.py like this::
 
-    path('polls/', include('polls.urls')),
+    path('universaldjango/', include('universaldjango.urls')),
 
-3. Run ``python manage.py migrate`` to create the polls models.
+3. Run ``python manage.py migrate`` to create the universaldjango models.
 
 4. Start the development server and visit http://127.0.0.1:8000/admin/
-   to create a poll (you'll need the Admin app enabled).
-
-5. Visit http://127.0.0.1:8000/polls/ to participate in the poll.
+   to create a universaldjango (you'll need the Admin app enabled).
