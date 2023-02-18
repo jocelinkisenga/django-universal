@@ -2,7 +2,7 @@
 
 ![laravel-universal](https://img.shields.io/badge/stable-v0.01-success)![universal meta model](https://img.shields.io/badge/asddaniel-universal-blue)
 
-Universaldjango est un package  django permettant de gerer vos models sans liens avec les tables de la base de données, donc pas de gestion de migrtion à chaque nouveu model crée
+Universaldjango est un package  django permettant de gerer vos models sans liens avec les tables de la base de données, donc pas de gestion de migration à chaque nouveau model créé
 
 
 
@@ -13,7 +13,7 @@ vous pouvez installer ce package via pip:
 ```bash
 pip install universaldjango==0.1
 ```
-vous devez ensuite publier ajoutez le package à la liste des application installer dans le fichier settings.py de cette façon 
+vous devez ensuite publier le package à la liste des application installer dans le fichier settings.py de cette façon 
 
 ```python 
     INSTALLED_APPS = [
@@ -29,11 +29,11 @@ l'étape suivante consiste à tourner les migrations
     python manage.py migrate
 ```
 
-vous pouvew desomais utilisez les modeles pour crée vos propres models qui heriterons de celui-ci 
+vous pouvez desormais utilisez les models pour créer vos propres models qui heriterons de celui-ci 
 
 ## Utilisation 
 
-pour crée un nouveau models vous n'avez qu'à spécifier le nom du model ainsi que les attribut 
+pour crée un nouveau models vous n'avez qu'à spécifier le nom du model ainsi que les attributs 
 
 ```python
 from universaldjango.models import Universal
@@ -96,7 +96,7 @@ def operation(request):
 
 ## License 
 
-le package est fournie avec une license libre (MIT)
+le package est fourni avec une license libre (MIT)
 ## auteur et liens
 
 ### Auteur
